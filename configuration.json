@@ -1,0 +1,13 @@
+{
+  "choice": "disk",
+  "execution_os": "linux",
+  "conversion_type": "bigquery",
+  "windows_in_dir": "C:/Users/SHIVAM SINGH/Desktop/XMLS",
+  "windows_out_dir": "C:/Users/SHIVAM SINGH/Desktop/our_dir",
+  "linux_in_dir": "/mnt/c/G/wiki2.0/upwork/xml_to_csv/xml_to_bigquery_5/in_dir",
+  "linux_out_dir": "/mnt/c/G/wiki2.0/upwork/xml_to_csv/xml_to_bigquery_5/out_dir",
+  "bg_upload_type": "append",
+  "bg_data_set": "poc_1",
+  "bg_project_id": "greenplum-209709",
+  "bg_table_name": "pubmed"
+}
