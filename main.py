@@ -121,7 +121,6 @@ def main():
                                                        bigquery=bigquery, bg_upload_type=bg_upload_type,
                                                        bg_project_id=bg_project_id, bg_data_set=bg_data_set,
                                                        bg_table_name=bg_table_name, in_dir=in_dir, out_dir=out_dir))
-                        time.sleep(2)
 
                 for future in concurrent.futures.as_completed(futures):
                     details.append(future.result())
@@ -150,7 +149,6 @@ def main():
                                                        bigquery=bigquery, bg_upload_type=bg_upload_type,
                                                        bg_project_id=bg_project_id, bg_data_set=bg_data_set,
                                                        bg_table_name=bg_table_name, in_dir=in_dir, out_dir=out_dir))
-                        time.sleep(2)
 
                 for future in concurrent.futures.as_completed(futures):
                     details.append(future.result())
